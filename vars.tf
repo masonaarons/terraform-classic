@@ -7,7 +7,7 @@ variable "default_tags" {
 }
 variable "public_subnet_count" {
   type        = number
-  description = "Number of publis subnets in VPC"
+  description = "Number of public subnets in VPC"
   default     = 2
 }
 variable "private_subnet_count" {
